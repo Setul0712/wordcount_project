@@ -1,0 +1,15 @@
+<h1> There are {{countit}} words in the input</h1>
+
+
+<h1> User Input</h1>
+{{ fulltext }}
+
+<h2> Wordcounts</h2>
+
+{% for word, counttotal in worddic %}
+
+
+{{word}} - {{counttotal}}
+<br>
+
+{%endfor%}
